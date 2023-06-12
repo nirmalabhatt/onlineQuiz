@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ONLINE QUIZ APPLICATION</title>
+    <script src="jsscript/registration.js"></script>
+     <script src="jsscript/jquery.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="stylesheet/styles.css">
+   
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo"><span>ONLINE QUIZ APPLICATION</span></li>
+                <li class="highlight"><a href="Login.html">Login</a></li>
+                <li class="light"><a href="">About</a></li>
+                <li class="light"><a href="">Contact</a></li>
+                <li class="light"><a href="">Home</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <section id="our-Registration">
+        <div class="wrapper">
+            <h1> Register New Account</h1>
+            <form method="POST" autocomplete="off" action="">
+        <div id="container">
+            <div class="input-group">
+                <label for="ID">ID</label>
+                <input type="text" name="ID" id="id" placeholder="Your ID">
+            </div>
+            <div class="input-group">
+                <label>Username</label>
+                <input type="text" name="username" placeholder="Your username" id="username">
+            </div>
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password" name="password" placeholder="Your password" id="password">
+            </div>
+            <div class="input-group">
+                <label>Confirm Password</label>
+                <input type="password" name="confirm_password" placeholder="Retype password" id="cpassword">
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" required>
+                <label>I agree to have read the <a href="#">terms of service</a></label>
+            </div>
+            <div class="button-group">
+                <input id="register" type="button" name="submit" value="Register" onclick="addUser()">
+            </div>
+        </div>
+    </form>
+        </div>
+    </section>
+    <section id="about">
+        <div class="wrapper">
+            <h2>About project</h2>
+            <p>This online quiz system is a platform that allows users to take quizzes or tests over the 
+                internet. It is commonly used by educational institutions, businesses, and organizations to 
+                assess the knowledge of students, employees, or members. Online quiz systems can be used 
+                for a variety of purposes such as education, training, recruitment, and evaluation.</p>
+        </div>
+
+    </section>
+    <section id="team">
+        <div class="wrapper">
+            <h2>Team</h2>
+            <div id="team-members">
+                <div class="member">
+                    <img src="images/DilliSir.jpg" alt="">
+                    <h6 class="member-title">Head of department</h6>
+                    <h4 class="member-name">Dilli Raj Joshi</h4>
+                </div>
+                <div class="member">
+                    <img src="images/puneetSir.jpg" alt="">
+                    <h6 class="member-title">Supervisor</h6>
+                    <h4 class="member-name">Puneet Ayer</h4>
+                </div>
+                <div class="member">
+                    <img src="images/Nirmala.JPG" alt="">
+                    <h6 class="member-title">developed By</h6>
+                    <h4 class="member-name">Nirmala Bhatt</h4>
+                </div>
+
+            </div>
+            <a href="" class="call-to-action">play with US</a>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="top">
+            <ul>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Work with US</a></li>
+
+            </ul>
+        </div>
+
+        <div class="bottom">
+            <ul>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Tearms and Conditions</a></li>
+            </ul>
+
+        </div>
+    </footer>
+</body>
+
+</html>

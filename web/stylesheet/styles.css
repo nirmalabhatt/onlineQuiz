@@ -1,0 +1,277 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        header {
+            background-color: #2e546a;
+           
+        }
+        
+        header nav {
+            height: 78px;
+            width: 90%;
+            margin: auto;
+            padding: 16px 10px;
+        }
+        
+        header li {
+            display: inline-block;
+            float: right;
+            width: 10%;
+            font-size: 19px;
+            padding-top: 10px;
+        }
+        
+        .highlight {
+            background-color: #172a35;
+            padding: 10px;
+            text-align: center;
+            border-radius: 20px;
+        }
+        
+        .highlight a {
+            color: #f7fdfe;
+        }
+        
+        .logo {
+            float: left;
+            font-size: 30px;
+            padding-top: 0px;
+            text-align: left;
+            width: 400px;
+        }
+        
+        .logo span {
+            color: #f7fdfe;
+        }
+        
+        header a {
+            color: #82868f;
+            list-style-type: none;
+            text-decoration: none;
+        }
+        
+        #our-Registration {
+            background: url("../images/background.jpg");
+            background-size: cover;
+            height: 600px;
+            position: relative;
+        }
+         #our-Registration .wrapper {
+         width: 80%;
+        margin: auto;
+        position: absolute;
+        bottom: 90px;
+        left: 10%;
+        padding: 20px;
+        text-align: center;
+        color: #f7fdfe;
+        font-size: 26px;
+        }
+
+        #our-Registration .wrapper p {
+         color: #f7fdfe;
+        }
+
+        
+        .wrapper h2 {
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-size: 44px;
+        }
+        
+        #about {
+            height: 250px;
+            position: relative;
+            background-color: #2e546a;
+            ;
+        }
+        
+        #about .wrapper {
+            width: 80%;
+            margin: auto;
+            position: absolute;
+            bottom: 15px;
+            left: 10%;
+            padding: 20px;
+            text-align: center;
+            font-size: 26px;
+            color: #82868f;
+        }
+        
+        #about h2 {
+            color: #f7fdfe;
+            font-size: 44px;
+        }
+        
+        #about .wrapper p {
+            color: #f7fdfe;
+        }
+        
+        #team {
+            position: relative;
+            height: 600px;
+            background-color: black;
+        }
+        
+        #team .wrapper {
+            width: 80%;
+            margin: auto;
+            position: absolute;
+            top: 50px;
+            left: 10%;
+            padding: 20px;
+            text-align: center;
+            font-size: 20px;
+            color: #f7fdfe;
+        }
+        
+        #team h2 {
+            font-size: 44px;
+            margin-bottom: 90px;
+        }
+        
+        #team-members {
+            padding: 10px;
+        }
+        
+        .member {
+            width: 20%;
+            display: inline-block;
+            margin-bottom: 50px;
+        }
+        
+        .member img {
+            max-width: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            height: 100px;
+        }
+        
+        .call-to-action {
+            display: inline-block;
+            width: 180px;
+            border-radius: 20px;
+            border: 3px solid #fff;
+            color: #fff;
+            padding: 10px;
+            text-decoration: none;
+        }
+        
+        #find-us {
+            height: 600px;
+        }
+        
+        footer {
+            background-color: #2e546a;
+            height: 120px;
+        }
+        
+        footer ul {
+            list-style-type: none;
+        }
+        
+        footer li {
+            display: inline-block;
+            width: 8%;
+        }
+        
+        footer a {
+            color: #f7fdfe;
+            text-decoration: none;
+        }
+        
+        footer div {
+            padding: 10px;
+            text-align: center;
+        }
+        
+        footer .bottom {
+            padding: 5px;
+            border-top: 2px solid #73767a;
+            ;
+            margin-top: 10px;
+        }
+        
+        footer .bottom li {
+            display: inline-block;
+            margin-top: 20px;
+            width: 15%;
+        }
+        
+        footer .bottom a {
+            color: #73767a;
+            font-size: 16px;
+        }
+        /* Css for  the Registration page*/
+button,
+input {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#container {
+    width: 600px;
+    height: 350px;
+    border: solid 2px white;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #df653a;
+}
+
+h1 {
+    font-weight: bold;
+    color: #002d5b;
+    text-align: center;
+    margin-top: 120px;
+}
+
+form {
+    margin: 0 auto;
+    display: block;
+    width: max-content;
+}
+
+.input-group {
+    margin: 12px 0;
+}
+
+label {
+    margin-right: 12px;
+    font-size: 19px;
+}
+
+.input-group input {
+    width: 320px;
+    height: 30px;
+    padding: 2px 10px;
+    font-size: 15px;
+    float: right;
+    border-radius: 15px;
+}
+
+.checkbox-group {
+    margin: 36px 0;
+}
+
+#register {
+    display: block;
+    font-size: 120%;
+    width: 60%;
+    padding: 8px 44px;
+    float: right;
+    border-radius: 10px;
+    background-color: #6f321d;
+    border: none;
+    color: white;
+}
+
+a {
+    color: #6c241d;
+}
+
+#register:hover {
+    opacity: .7;
+}
